@@ -12,17 +12,13 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#Space::vkF3sc029			;IMEのON　OFF切り替え 左Win＋スペース
+RWin::vkF3sc029			;IMEのON　OFF切り替え
+PrintScreen::vkF3sc029	
 
-;CapsLock::Ctrl
+^PrintScreen::PrintScreen
 
-RWin::RAlt
-RAlt::RCtrl
+PgUp::Return
+PgDn::Return
 
-!~,::!+Tab
-!.::!Tab
-!/::!F4
+;^g::Escape
 
-;RWin::Send,{Blind}{Alt}		 ;右のWinキーをCtrlに
-;RAlt::Send,{Blind}{Ctrl}
-;RCtrl::Send,{Blind}{Alt}						  
