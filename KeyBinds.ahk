@@ -12,8 +12,9 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-RWin::vkF3sc029			;IME��ON�@OFF�؂�ւ�
+RWin::vkF3sc029			;IME‚ÌON@OFFØ‚è‘Ö‚¦
 PrintScreen::vkF3sc029	
+!`::vkF3sc029	
 
 ^PrintScreen::PrintScreen
 
