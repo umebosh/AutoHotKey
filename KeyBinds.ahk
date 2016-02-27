@@ -21,5 +21,7 @@ PrintScreen::vkF3sc029
 PgUp::Return
 PgDn::Return
 
-;^g::Escape
+!Space::^Space
 
+#4::!F4	;ウインドウを閉じる
+#t::Run, C:\Program Files\Git\git-bash.exe
